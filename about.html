@@ -1,0 +1,84 @@
+<!--about html-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about me section </title>
+    <style >
+        header{
+            background-image: url(photo1.jpeg);
+    background-position-x: right;
+    background-repeat: no-repeat;
+    background-size: 500px;
+        }
+        a{
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 100px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a{
+    color: #1d1d24;
+    position: relative;
+    padding: 5px 0;
+}
+nav ul li a:hover{
+    color: #fd4766;
+}
+nav ul li a:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background: #fd4766;
+    transition: .3s;
+    bottom: 0;
+}
+nav ul li a:hover:after{
+    width: 100%;
+}
+    </style>
+
+</head>
+<body>
+<!--header section starts -->
+<nav class="navbar">
+    <ul>
+        <li>   <a href="new portfolio.html">  Home</a></li>
+        <li>   <a href="about.html">  About</a></li>
+        <li>   <a href="contact me.html">  Contact</a></li>
+    </ul>
+
+</nav>
+
+    <header style="padding: 60px;">
+        <div class="row">
+            <div class="col-8">
+                <section class="about" id="about">
+                   
+                    <h1> <span style="margin-top: 100px;">Shiva Krishna</span></h1>
+                    <h1> <span>Age : 22</span></h1>
+                    <h1> <span>Qualification : BE (Mech)</span></h1>
+                    <h1> <span>Post :Front-end Developer</span></h1>
+                    <h1> <span>Languages known: English, Hindi, Telugu</span></h1>
+                    <h1> <span> <a href="my resume.docx" alt="sorry for the inconvience, file doesn't exist"> Download CV</a></span></h1>
+                    
+                </section>
+
+            </div>
+</header>
+</div>
+    </body>
+    </body>
+</html>

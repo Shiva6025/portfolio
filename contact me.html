@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <title>contact me section</title>
+        <style>
+            a{
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 100px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a{
+    color: #1d1d24;
+    position: relative;
+    padding: 5px 0;
+}
+nav ul li a:hover{
+    color: #fd4766;
+}
+nav ul li a:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background: #fd4766;
+    transition: .3s;
+    bottom: 0;
+}
+nav ul li a:hover:after{
+    width: 100%;
+}
+        </style>
+    </head>
+    <body>
+        <nav class="navbar">
+            <ul>
+                <li><a href="new portfolio.html">  Home</a></li>
+                <li><a href="about.html">  About</a></li>
+                <li><a href="contact me.html">  Contact</a></li>
+            </ul>
+
+        </nav>
+        <h1>
+            <h1 align="center" color="skyblue">CONTACT ME</h1>
+        </h1>
+        <table align="center">
+            <form action></form>
+            <tbody>
+                <tr>
+                    <td>
+                        <input type="text" name="Name" placeholder="Name" size="60">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="GMail" name="Gmail" placeholder="Gmail" size="60">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="button" value="submit">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        
+    </body>
+</html>
